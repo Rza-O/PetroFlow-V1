@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and logs
+*.log
+*.sqlite3
+*.db
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Docker overrides
+docker-compose.override.yml
+
+# Alembic and local runtime leftovers
+alembic/versions/__pycache__/
+
+# Private working docs until publication
+AGENTS.md
+30_DAY_PLAN.md
+DECISIONS.md
+CURRENT_STATE.md
+ACCEPTANCE_CHECKLIST.md
+OPEN_ITEMS.md
+SESSION_LOG.md
+QUESTIONS.md
